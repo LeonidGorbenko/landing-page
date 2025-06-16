@@ -3,7 +3,7 @@ import iconTwo from "@/TechnologyIcon/IconTwo.svg";
 import iconThree from "@/TechnologyIcon/IconThree.svg";
 import Card from "../../components/UI/Card";
 import SectionTitle from "../../components/UI/Section-title";
-
+import shape3 from "@/Shape-3.png";
 function Technology() {
   const sens = {
     tag: "Technology",
@@ -35,7 +35,7 @@ function Technology() {
         <SectionTitle sens={sens} />
         <div className=" flex-1  flex flex-col lg:flex-row lg:gap-19">
           <div className="self-center">
-            <img src="src\assets\img\Shape-3.png" alt="" />
+            <img src={shape3} alt="" />
           </div>
           <div className=" flex-1 flex flex-col gap-4">
             {features.map((feature, i) => (

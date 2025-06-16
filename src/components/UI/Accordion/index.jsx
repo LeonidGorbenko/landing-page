@@ -22,7 +22,7 @@ function Accordion({ data }) {
             onClick={() => toggleItemm(i)}
             className="w-full flex justify-between p-4 cursor-pointer"
           >
-            <span className=" text-white">{faq.question}</span>
+            <span className=" text-white text-left">{faq.question}</span>
             <div>
               <SVG src={plus} className="w-5 h-5" />
             </div>

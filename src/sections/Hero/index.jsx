@@ -1,6 +1,6 @@
 import SVG from "react-inlinesvg";
 import playIcon from "@/play.svg";
-
+import shape2 from "@/Shape-2.png";
 function Hero() {
   return (
     <section className=" bg-background ">
@@ -34,7 +34,7 @@ function Hero() {
           </div>
           <div className="flex-1 flex items-center justify-center">
             {/* right */}
-            <img src="src\assets\img\Shape-2.png" alt="" />
+            <img src={shape2} alt="" />
           </div>
         </div>
       </div>

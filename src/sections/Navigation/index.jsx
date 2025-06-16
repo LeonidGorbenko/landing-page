@@ -11,7 +11,7 @@ function Navigation() {
           <p className="font-subtitle">NeoFi</p>
         </div>
 
-        <div className="hidden lg:flex items-center gap-12">
+        <div className="hidden lg:flex lg:items-center ">
           <nav className="flex gap-8 font-text-2 text-white self-center">
             <a href="#home" className="hover:text-green transition">
               Home
@@ -27,8 +27,7 @@ function Navigation() {
             </a>
           </nav>
         </div>
-
-        <div className="flex items-center gap-4">
+        <div className=" hidden lg:flex lg:items-center lg:gap-4">
           <button className="cursor-pointer font-text-2 text-white border border-gray3 px-4 py-2 rounded-full">
             Login
           </button>
@@ -36,7 +35,6 @@ function Navigation() {
             Try for free
           </button>
         </div>
-
         <div className="lg:hidden">
           <SVG src={burger} />
         </div>
