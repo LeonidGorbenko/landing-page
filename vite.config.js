@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src/assets/img"),
     },
   },
-  base: "/landing-page/",
+  base: "/landing-page",
 });
